@@ -1,0 +1,645 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
+.nav-bar{
+    width:1200px;
+    height: 67px;
+    background-color: white;
+    justify-content: center;
+}
+.nav-bar2{
+    width: 1280px;
+    height: 66px;
+    background-color:white;
+    margin-left: 10px;
+    padding: 12px;
+    
+}
+/* ---------------------box 1------------------------ */
+.nav-bar3{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-image: url("https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo-183b96.svg");
+    background-size: cover;
+    height: 40px;
+    width: 160px;
+}
+.input{
+    width: 467px;
+    height: 40px;
+    border: 1px;
+    border-radius:0px 4px 4px 0px;
+    font-size: larger;
+    background-color:whitesmoke
+}
+.search-bar{
+    display: flex;
+}
+.search-bar:hover{
+    border: 1px solid black;
+}
+.search-logo{
+    height: 42px;
+    width: 40px;
+    background-color:whitesmoke;
+    border-radius:4px 0px 0px 4px;
+    border: 1px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: large;
+    
+}
+.login{
+    width: 110px;
+    height: 30px;
+    padding: 8px;
+    display: flex; 
+}
+.p-logo{
+    width: 24px;
+    height: 24px;
+    margin: 0px 8px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+
+}
+p{
+    font-size: large;
+}
+.login-s{
+    border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 5px;
+}
+.cart{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.cart-p{
+    font-weight: 100;
+    font-size: large;
+    position: relative;
+    display: flex;
+    left: 20px;
+}
+.pcart{
+    font-weight: 100;
+    font-size: large;
+    position: relative;
+    display: flex;
+    left: 20px;
+}
+.shop{
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cart-s{
+    border: 1px solid whitesmoke;
+    position: relative;
+    left: 30px;
+}
+/* ---------------------------total page------------------------ */
+.whole{
+    width: 1420px;
+    height: 1000px;
+    background-color: whitesmoke;
+}
+/* -----------------------box 2------------------------ */
+.shop1{
+   width:1310px;
+   height: 150px;
+   background-color: white;
+   position: relative;
+   top: 10px;
+   left: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.box{
+    width: 80px;
+    height: 100px;
+    border: 1px;
+    padding: 16px 16px 16px 16px;
+    position: relative;
+    top: 5px;
+}
+.img1{
+    background-image: url("img2.png");
+    background-size:cover;
+    width: 64px;
+    height: 64px;
+}
+.box1{
+    width: 130px;
+    height: 150px;
+}
+.p2{
+   
+    display: flex;
+    align-items: center;
+    font-weight: 700;  
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: small;
+}
+.img2{
+    background-image: url("img0.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box0{
+    width: 130px;
+    height: 150px;
+}
+.p3{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 30px;
+    font-weight: 700;
+    top: 10px;
+}
+.img3{
+    background-image: url("img3.png");
+    background-size: cover;
+    width: 60px;
+    height: 55px;
+}
+.box3{
+    width: 130px;
+    height: 150px;
+}
+.p4{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 30px;
+    font-weight: 700;
+    top: 20px;
+    
+}
+.img4{
+    background-image: url("img4.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box4{
+    width: 130px;
+    height: 150px;
+}
+.p5{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+}
+.img5{
+    background-image: url("img5.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box5{
+    width: 130px;
+    height: 150px;
+}
+.p6{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+}
+.img6{
+    background-image: url("img6.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box6{
+    width: 130px;
+    height: 150px;
+}
+.p7{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-weight: 700;
+}
+.img7{
+    background-image: url("img7.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box7{
+    width: 130px;
+    height: 150px;
+}
+.p8{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+}
+.img8{
+    background-image: url("img8.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box8{
+    width: 130px;
+    height: 150px;
+}
+.p9{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: 700;
+}
+.img9{
+    background-image: url("img9.png");
+    background-size: cover;
+    width: 64px;
+    height: 64px;
+}
+.box9{
+    width: 130px;
+    height: 150px;
+}
+.p10{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-weight: 700;
+}
+/* ----------------banner--------------- */
+.shop2{
+    width:1310px;
+    height: 220px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-image: url("banner.png");
+    background-size: cover;
+}
+/* ------------------------best of electronics------------------------ */
+.shop3{
+    width: 1052px;
+    height: 50px;
+    padding: 16px 20px;
+    background-color:white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    top: 10px;
+}
+.h2{
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    top: 13px;
+}
+/* ------------------------components of best of electronics--------------------------------- */
+.shop4{
+    width: 1080px;
+    height: 200px;
+    padding: 0px 6px 12px;
+    background-color:white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content:space-between;
+    border: 1px;
+}
+.box2{
+    padding: 6px;
+    width: 156px;
+    height: 190px;
+    border: 0.5px solid whitesmoke;
+    border-radius: 4px;
+
+}
+.img12{
+    background-image: url("img15.png");
+    background-size: cover;
+    width: 142px;
+    height: 142px;
+}
+.p12{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: large;
+}
+.h12{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+}
+.img13{
+    background-image: url("img20.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p13{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h13{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img22{
+    background-image: url("img22.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p14{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h14{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+
+.img23{
+    background-image: url("img23.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p15{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h15{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img24{
+    background-image: url("img24.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+
+.p16{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h16{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+/* ----------------side box--------------------- */
+.side-box{
+    width: 200px;
+    height:293px ;
+    border: 1px solid whitesmoke;
+    display: flex;
+    position: absolute;
+    background-image: url("img1.png");
+    background-size: cover;
+    margin-left: 1130px;
+    margin-top: 30px;
+    
+    
+}
+.side-box:hover{
+    border: 1px solid black;
+    
+}
+/* -----------------beauty food toys----------------- */
+.shop5{
+    width: 1272px;
+    height: 50px;
+    padding: 16px 20px;
+    background-color:white;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-top: 10px;
+}
+.h5{
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    top: 13px;
+}
+.shop6{
+    width: 1300px;
+    height: 200px;
+    padding: 0px 6px 12px;
+    background-color:white;
+    position: relative;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+.img26{
+    background-image: url("img26.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p26{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h26{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img27{
+    background-image: url("img27.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p27{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h27{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img28{
+    background-image: url("img28.png");
+    background-size: cover;
+    width: 160px;
+    height: 142px;
+}
+.p28{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h28{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img29{
+    background-image: url("img29.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.p29{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h29{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img30{
+    background-image: url("img30.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.p30{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h30{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
+.img31{
+    background-image: url("img31.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.p31{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: large;
+}
+.h31{
+    display: flex;
+    position: relative;
+    font-size: small;
+    bottom: 8px;
+    left: 45px;
+    font-weight:10px;
+}
